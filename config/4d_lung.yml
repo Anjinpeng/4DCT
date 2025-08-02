@@ -1,0 +1,8 @@
+#Path to the source directory containing meta_data.json or *.pickle.
+source_path : data/synthetic_dataset/cone_ntrain_75_angle_360
+
+#初始化点云的路径：
+ply_path : data/synthetic_dataset/cone_ntrain_75_angle_360/MP5_ph0_cone/init_MP5_ph0_cone.npy
+
+#Path where the trained model should be stored (output/<random> by default).
+model_path:  output/4d_lung
